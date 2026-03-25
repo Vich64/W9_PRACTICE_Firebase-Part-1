@@ -1,18 +1,18 @@
 class Song {
-  final String id;
-  final String title;
-  final String artist;
+  final String artistId;
   final Duration duration;
+  final Uri imageUrl;
+  final String title;
 
   Song({
-    required this.id,
-    required this.title,
-    required this.artist,
+    required this.artistId,
+    required this.imageUrl,
     required this.duration,
+    required this.title, required id, 
   });
 
   @override
   String toString() {
-    return 'Song(id: $id, title: $title, artist: $artist, duration: $duration)';
+    return 'Song(id: $artistId, title: $title, Image: $imageUrl, duration: $duration)';
   }
 }

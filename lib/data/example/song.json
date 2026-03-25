@@ -1,0 +1,60 @@
+{
+    "songs": {
+        "song_unique_id_1": {
+            "title": "City Lights Phnom Penh and Ronan",
+            "artistId": "artist_unique_id_A",
+            "albumId": "album_unique_id_X",
+            "durationMs": 195000,
+            "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+            "genre": "Electronic",
+            "releaseYear": 2023,
+            "isAvailable": true
+        },
+        "song_unique_id_2": {
+            "title": "Starlight Symphony",
+            "artistId": "artist_unique_id_B",
+            "albumId": "album_unique_id_Y",
+            "durationMs": 240000,
+            "imageUrl": "https://images.unsplash.com/photo-1517457375211-512c011e4917",
+            "genre": "Pop",
+            "releaseYear": 2022,
+            "isAvailable": true
+        },
+        "song_unique_id_3": {
+            "title": "Ocean's Embrace",
+            "artistId": "artist_unique_id_A",
+            "albumId": "album_unique_id_Z",
+            "durationMs": 300000,
+            "imageUrl": "https://images.unsplash.com/photo-1506744038164-83a373c21a48",
+            "genre": "Chillwave",
+            "releaseYear": 2024,
+            "isAvailable": false
+        }
+    },
+    "artists": {
+        "artist_unique_id_A": {
+            "name": "Ronan",
+            "bio": "An electronic music producer known for ambient soundscapes.",
+            "country": "Ireland"
+        },
+        "artist_unique_id_B": {
+            "name": "Luna Bloom",
+            "bio": "A rising pop sensation with catchy melodies.",
+            "country": "USA"
+        }
+    },
+    "albums": {
+        "album_unique_id_X": {
+            "title": "Neon Dreams",
+            "artistId": "artist_unique_id_A",
+            "releaseYear": 2023,
+            "coverImageUrl": "https://images.unsplash.com/photo-1506744038164-83a373c21a48"
+        },
+        "album_unique_id_Y": {
+            "title": "Galaxy Echoes",
+            "artistId": "artist_unique_id_B",
+            "releaseYear": 2022,
+            "coverImageUrl": "https://images.unsplash.com/photo-1517457375211-512c011e4917"
+        }
+    }
+}
